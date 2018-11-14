@@ -6,7 +6,7 @@
 /*   By: abaurens <abaurens@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/06 16:08:19 by abaurens          #+#    #+#             */
-/*   Updated: 2018/11/08 17:07:05 by abaurens         ###   ########.fr       */
+/*   Updated: 2018/11/14 15:59:32 by abaurens         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -22,9 +22,7 @@ int				main()
 
 	grade += ft_isalpha_test(); x++;
 	grade += ft_isdigit_test(); x++;
-	grade += ft_islower_test(); x++;
 	grade += ft_isprint_test(); x++;
-	grade += ft_isupper_test(); x++;
 	grade += ft_isascii_test(); x++;
 	grade += ft_isalnum_test(); x++;
 	grade += ft_tolower_test(); x++;

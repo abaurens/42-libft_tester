@@ -6,7 +6,7 @@
 #    By: abaurens <abaurens@student.42.fr>          +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2018/11/08 03:40:09 by abaurens          #+#    #+#              #
-#    Updated: 2018/11/08 13:18:04 by abaurens         ###   ########.fr        #
+#    Updated: 2018/11/14 15:58:26 by abaurens         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -24,26 +24,24 @@ SRC		=	main.c					test_ft_strmapi.c		\
 			test_ft_putstr.c		test_ft_putchar.c		\
 			test_ft_putendl.c		test_ft_putnbr_fd.c		\
 			test_ft_putstr_fd.c		test_ft_putchar_fd.c	\
-			test_ft_putendl_fd.c	test_ft_idxof.c			\
-			test_ft_contains.c		test_ft_atoi_base.c		\
-			test_ft_isupper.c		test_ft_islower.c		\
-			test_ft_memset.c		test_ft_bzero.c			\
+			test_ft_putendl_fd.c	test_ft_memset.c		\
+			test_ft_bzero.c			test_ft_strchr.c		\
 			test_ft_memcpy.c		test_ft_memccpy.c		\
 			test_ft_memmove.c		test_ft_memchr.c		\
 			test_ft_memcmp.c		test_ft_strlen.c		\
 			test_ft_strdup.c		test_ft_strcpy.c		\
 			test_ft_strncpy.c		test_ft_strcat.c		\
 			test_ft_strncat.c		test_ft_strlcat.c		\
-			test_ft_strchr.c		test_ft_strrchr.c		\
+			test_ft_strrchr.c		test_ft_atoi.c			\
 			test_ft_strstr.c		test_ft_strnstr.c		\
 			test_ft_strcmp.c		test_ft_strncmp.c		\
-			test_ft_atoi.c			test_ft_isalpha.c		\
-			test_ft_isdigit.c		test_ft_isalnum.c		\
-			test_ft_isascii.c		test_ft_isprint.c		\
-			test_ft_toupper.c		test_ft_tolower.c		\
-			test_ft_lstnew.c		test_ft_lstdelone.c		\
-			test_ft_lstdel.c		test_ft_lstadd.c		\
-			test_ft_lstiter.c		test_ft_lstmap.c
+			test_ft_isalpha.c		test_ft_isdigit.c		\
+			test_ft_isalnum.c		test_ft_isascii.c		\
+			test_ft_isprint.c		test_ft_toupper.c		\
+			test_ft_tolower.c		test_ft_lstnew.c		\
+			test_ft_lstdelone.c		test_ft_lstdel.c		\
+			test_ft_lstadd.c		test_ft_lstiter.c		\
+			test_ft_lstmap.c
 
 OBJ		=	$(SRC:.c=.o)
 
