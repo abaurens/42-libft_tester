@@ -6,7 +6,7 @@
 /*   By: abaurens <abaurens@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/08 04:27:09 by abaurens          #+#    #+#             */
-/*   Updated: 2018/11/09 20:09:00 by abaurens         ###   ########.fr       */
+/*   Updated: 2018/11/14 16:59:08 by abaurens         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -47,9 +47,7 @@ double		ft_putendl_fd_test(void);
 
 double		ft_isdigit_test(void);
 double		ft_isalpha_test(void);
-double		ft_islower_test(void);
 double		ft_isprint_test(void);
-double		ft_isupper_test(void);
 double		ft_isalnum_test(void);
 double		ft_isascii_test(void);
 double		ft_tolower_test(void);
@@ -111,9 +109,5 @@ double		ft_lstdel_test(void);
 double		ft_lstnew_test(void);
 double		ft_lstiter_test(void);
 double		ft_lstdelone_test(void);
-
-double		ft_idxof_test(void);
-double		ft_contains_test(void);
-double		ft_atoi_base_test(void);
 
 #endif
