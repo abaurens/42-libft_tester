@@ -6,7 +6,7 @@
 /*   By: abaurens <abaurens@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2018/11/08 07:14:35 by abaurens          #+#    #+#             */
-/*   Updated: 2018/11/13 18:10:14 by abaurens         ###   ########.fr       */
+/*   Updated: 2018/11/15 17:22:49 by kibotrel         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,7 +14,7 @@
 #include "libft.h"
 #include "tester.h"
 
-static char *g_tab[11] =
+static char *g_tab[12] =
 {
 	"test",
 	"test",
@@ -26,10 +26,11 @@ static char *g_tab[11] =
 	"test1",
 	"zyxbcdefgh",
 	"abcdefgh",
+	"abc",
 	NULL
 };
 
-static char *g_tab2[11] =
+static char *g_tab2[12] =
 {
 	"test",
 	"test",
@@ -41,10 +42,11 @@ static char *g_tab2[11] =
 	"",
 	"abcdwxyz",
 	"",
+	"abcde",
 	NULL
 };
 
-static int g_lens[11] =
+static int g_lens[12] =
 {
 	4,
 	8,
@@ -56,6 +58,7 @@ static int g_lens[11] =
 	5,
 	0,
 	0,
+	3,
 	0
 };
 
